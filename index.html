@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>positioning</title>
+	</head>
+	<body>
+		<style>
+		body{
+		height:2000px;
+		}
+	
+		.layers{
+		width:30%;
+		height:70%;
+		position:absolute;
+		}
+		
+		.layer1{
+		top:13%;
+		left:34.5%;
+		background-color:red;
+		z-index:5;
+		}
+				
+		.layer2{
+		background-color:green;
+		top:14%;
+		left:35%;
+		z-index:4;
+		}
+		
+		.layer3{
+		background-color:blue;
+		top:15%;
+		left:35.5%;
+		z-index:3;
+		}
+		
+		.layer4{
+		width:350px;
+		height:100px;
+		position:fixed;
+		background-color:rgba(95,95,95,0.9);
+		bottom:5px;
+		right:0;
+		z-index:6;
+		font-size:14px;
+		color:white;
+		}
+		
+		p{
+		margin-left:100px;
+		margin-top:7px;
+		}
+		
+		.avatar{
+		position:absolute;
+		top:9px;
+		left:9px;
+		z-index:10;
+		}
+		
+		img{
+		width:150px;
+		repeat:no-repeat;
+		border:0.2em solid blue;
+		border-radius:50%;		
+		}
+		
+		.soc{
+		width:32px;
+		height:32px;
+		border-radius:50%;	
+		background-image:url(social2.jpg);
+		position:absolute;
+		z-index:11;
+		}
+		
+		
+		.socP{
+		background-position:129px 129px;
+		top:145px;
+		left:75px;
+		}
+		
+		.socF{
+		background-position:424px 171px;
+		top:133px;
+		left:110px;
+		}
+		
+		.socT{
+		background-position:340px 87px;
+		top:108px;
+		left:137px;
+		}
+		
+		.socW{
+		background-position:297px 87px;
+		top:15px;
+		left:15px;
+		}
+		
+		.rect{
+		width:80px;
+		height:80px;
+		position:fixed;
+		background-color:yellow;
+		bottom:15px;
+		right:260px;
+		z-index:7;
+		}
+		
+		p+p{
+		line-height:5px;
+		}		
+		</style>
+		
+		<div class="layers layer1">		
+		</div>		
+		<div class="layers layer2">		
+		</div>		
+		<div class="layers layer3">		
+		</div>		
+		<div class="layer4">			
+			<p><strong>HAVE ANY QUESTIONS?</strong></p>	
+			<p><strong>Email:</strong> SVM1983@tut.by</p>
+			<p><strong>phone:</strong> +375 293356437</p>
+			<p><strong>Contact Person:</strong> Sergej</p>
+		</div>		
+		<div class="rect">
+		</div>		
+		<div class="avatar">
+			<img src="no_avatar.jpg">
+		</div>		
+		<div class="soc socP">
+		</div>		
+		<div class="soc socF">
+		</div>		
+		<div class="soc socT">
+		</div>		
+		<div class="soc socW">
+		</div>
+	</body>
+</html>
+
+

@@ -33,12 +33,14 @@ body{
 		width:350px;
 		height:100px;
 		position:fixed;
-		background-color:rgba(95,95,95,0.9);
+		background-color:rgb(95,95,95);
+		opacity:0.8;
 		bottom:5px;
 		right:0;
 		z-index:6;
 		font-size:14px;
 		color:white;
+		filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
 		}
 		
 		p{
@@ -57,13 +59,15 @@ body{
 		width:150px;
 		repeat:no-repeat;
 		border:0.2em solid blue;
-		border-radius:50%;		
+		border-radius:50%;
+		behavior: url(PIE.htc);
 		}
 		
 		.soc{
 		width:32px;
 		height:32px;
-		border-radius:50%;	
+		border-radius:50%;
+		behavior: url(PIE.htc);
 		background-image:url(../img/social2.jpg);
 		position:absolute;
 		z-index:11;

@@ -1,0 +1,48 @@
+
+.page{
+margin-top:10%;
+}
+
+header{
+width:80%;
+height:100px;
+background-color:#716558;
+margin:10px auto;
+}
+
+#wrapper{
+width:80%;
+margin:10px auto;
+position:relative;
+}
+
+ul{
+list-style-type:none;
+padding-left:6%;
+}
+
+aside{
+width:20%;
+height:300px;
+padding:0;
+margin-right:1%;
+background-color:#FBB040;
+float:left;
+}
+
+article{
+width:77%;
+height:400px;
+padding:0 1%;
+background-color:#29AAE2;
+overflow:auto;
+}
+
+
+
+footer{
+width:80%;
+height:100px;
+background-color:#8CC63F;
+margin:10px auto;
+}

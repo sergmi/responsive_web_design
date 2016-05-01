@@ -1,48 +1,44 @@
 body{
-margin:0;
-}
-
-.page{
-margin-top:7%;
+margin: 0 auto;
 }
 
 header{
-width:800px;
-height:100px;
-background-color:#716558;
-margin:10px auto;
+width: 800px;
+height: 100px;
+background-color: #716558;
+margin: 0 auto 10px auto;
 }
 
-#wrapper{
-width:800px;
-margin:10px auto;
-position:relative;
+.wrapper{
+width: 800px;
+margin: 0 auto;
 }
 
 ul{
-list-style-type:none;
-}
-
-aside{
-width:240px;
-height:400px;
-background-color:#FBB040;
-position:absolute;
-right:0;
-top:0;
+list-style-type: none;
+padding-left: 20px;
 }
 
 article{
-width:520px;
-height:500px;
-padding:0 20px;
-background-color:#29AAE2;
-overflow:auto;
+width: 560px;
+padding: 0 20px;
+background-color: #29AAE2;
+display: inline-block;
+vertical-align: top;
+
+margin-right: 6px;   /* ? */
+}
+
+aside{
+width: 190px;
+background-color: #FBB040;
+display: inline-block;
+vertical-align: top;
 }
 
 footer{
-width:800px;
-height:100px;
-background-color:#8CC63F;
-margin:10px auto;
+width: 800px;
+height: 100px;
+background-color: #8CC63F;
+margin: 10px auto 0 auto;
 }

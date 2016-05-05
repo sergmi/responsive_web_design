@@ -1,0 +1,188 @@
+html{
+height: 100%;
+}
+
+body{
+min-height: 100%;
+margin: 0;
+height: auto;
+position: relative;
+}
+
+.page{
+width: 796px;
+margin: 0 auto;
+font-family: Verdana, sans-serif;
+}
+
+footer, article, nav, aside, header{
+display: block;   /*for IE8*/
+}
+
+header{
+background-color: #cccccc;
+height: 100px;
+border: 1px solid black;
+box-sizing: border-box;
+position: relative;
+font-size: 0;
+}
+
+dl{
+color: #6D6D6D;
+position: relative;
+top: -45px;
+
+}
+
+dt{
+font-size: 21px;
+}
+
+dd{
+font-size: 13px;
+margin: 0;
+}
+
+nav{
+height: 30px;
+color: white;
+background-color: #383838;
+margin-bottom: 10px;
+}
+
+nav ul{
+list-style-type: none;
+font-size: 0;
+padding: 0;
+}
+
+nav ul li{
+display: inline-block;
+width: 100px;
+font-size: 13px;
+text-align: center;
+padding-top: 6px;
+height: 24px;
+}
+
+nav a{
+text-decoration: none;
+color: white;
+}
+
+nav li:hover{
+color: black;
+background-color: white;
+}
+
+nav li:active{
+color: white;
+background-color: green;
+}
+
+aside a{
+text-decoration: none;
+color: white;
+}
+
+aside li:hover{
+color: black;
+background-color: white;
+text-decoration: underline;
+}
+
+aside li:active{
+color: black;
+background-color: yellow;
+text-decoration: underline;
+}
+
+aside{
+width: 224px;
+background-color: #cccccc;
+float: left;
+position: relative;
+top: 15px;
+left: 572px;
+padding-bottom: 30px;
+}
+
+aside ul{
+width: 194px;
+list-style-type: none;
+color: white;
+background-color: #383838;
+font-size: 12px;
+padding: 0;
+margin: 0 auto;
+line-height: 30px;
+text-align: center;
+}
+
+p{
+font-size: 11px;
+}
+
+h4, h5{
+padding: 0;
+margin: 0;
+}
+
+article{
+/*display: inline-block;*/
+width: 546px;
+/*border: 1px solid red;*/
+padding: 0 10px;
+padding-bottom: 10px;
+margin: 0;
+line-height: 1;
+float: left;
+position: relative;
+left: 576px;
+top: 10px;
+}
+
+article ul li{
+font-size: 12px;
+}
+
+.rect{
+width: 69px;
+height: 69px;
+background-color: #ffffff;
+margin: 10px;
+}
+
+header div, dl{
+display: inline-block;
+}
+
+footer{
+width: 796px;
+height: 25px;
+background-color: #383838;
+position: absolute;
+bottom: 0;
+}
+
+.content-back{
+width: 796px;
+/*float: left;*/
+/*background-color: #29AAE2;*/
+/*opacity:0.5;*/
+position: relative;
+overflow: hidden;
+}
+
+.content-back-padding{
+height: 25px;
+}
+
+.aside-back{
+width: 796px;
+float: left;
+background-color: #cccccc;
+position: relative;
+right: 572px;
+}

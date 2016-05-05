@@ -130,9 +130,7 @@ margin: 0;
 }
 
 article{
-/*display: inline-block;*/
 width: 546px;
-/*border: 1px solid red;*/
 padding: 0 10px;
 padding-bottom: 10px;
 margin: 0;
@@ -168,9 +166,6 @@ bottom: 0;
 
 .content-back{
 width: 796px;
-/*float: left;*/
-/*background-color: #29AAE2;*/
-/*opacity:0.5;*/
 position: relative;
 overflow: hidden;
 }
